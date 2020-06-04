@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple calculator</title>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    
+       
+    </head>
+    <body>
+        <h1>hey</h1>
+        <p id="para">Calculator</p>
+        
+        <form id="my-form">
+             <p>input1<input type="text" id="value1"></p>
+            <p>input2<input type="text" id="value2"></p>
+            operator:
+            <select id="operator">
+                <option value="add" id="add">add</option>
+                <option value="subtract" id="subtract">subtract</option>
+                <option value="multiply" id="multiply">multiply</option>
+                <option value="divide" id="divide">divide</option>
+            </select>
+            <button type="button" id="btn" onclick="calc()">submit</button>
+        </form>
+        <div id="result"></div>
+        
+    </body>
+</html>
